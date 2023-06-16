@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.com.company.ViewPanelAsignaturas">
+  <grid id="27dc6" binding="panelAsignaturas" layout-manager="GridLayoutManager" row-count="8" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="822" height="446"/>
+    </constraints>
+    <properties>
+      <background color="-13485247"/>
+      <font/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="834d5" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="b2a4d">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="cd963" class="javax.swing.JTable" binding="tableAsignaturas">
+                <constraints/>
+                <properties>
+                  <background color="-6715273"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <component id="bd68a" class="javax.swing.JLabel" binding="labelTitulo">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="36" style="1"/>
+          <foreground color="-1"/>
+          <text value="Asignaturas"/>
+        </properties>
+      </component>
+      <component id="9beb6" class="javax.swing.JButton" binding="botonSalir">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15424569"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-1"/>
+          <text value="Salir"/>
+        </properties>
+      </component>
+      <component id="9a513" class="javax.swing.JButton" binding="botonPersonas">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15424569"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-1"/>
+          <text value="Personas"/>
+        </properties>
+      </component>
+      <component id="e5fdb" class="javax.swing.JButton" binding="botonInsertar">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15424569"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-1"/>
+          <text value="Insertar"/>
+        </properties>
+      </component>
+      <component id="32ab1" class="javax.swing.JButton" binding="botonBorrar">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15424569"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-1"/>
+          <text value="Borrar"/>
+        </properties>
+      </component>
+      <component id="42fc0" class="javax.swing.JButton" binding="botonModificar">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15424569"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-1"/>
+          <text value="Modificar"/>
+        </properties>
+      </component>
+      <component id="d7aba" class="javax.swing.JButton" binding="botonInicio">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15424569"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-1"/>
+          <text value="Inicio"/>
+        </properties>
+      </component>
+      <component id="b428c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="48"/>
+          <text value=" "/>
+        </properties>
+      </component>
+      <component id="282a4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="72"/>
+          <text value=" "/>
+        </properties>
+      </component>
+      <grid id="a512a" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13485247"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="6e205" class="javax.swing.JTextField" binding="textBusqueda">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-6715273"/>
+              <font name="Consolas" size="16" style="1"/>
+              <foreground color="-16777216"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d8272" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6715273"/>
+              <font name="Consolas" size="16" style="1"/>
+              <foreground color="-16777216"/>
+              <model>
+                <item value="Filtrar Aquí..."/>
+                <item value="Nombre"/>
+                <item value="Creditos"/>
+                <item value="Tipo"/>
+                <item value="Curso"/>
+                <item value="Cuatrimestre"/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="da71c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="images/asignatura.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="mysql-connector-java-5.0.8-bin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../mysql-connector-java-5.0.8-bin.jar!/" />
+      <root url="jar://H:/Gabriel/Ies El Rincon/Programación/Java/UT8 Acceso a BBDD y Entorno Gráfico SWING (JAVA)/Actividad 8 - Proyecto Java/Archivos Necesarios Para el Proyecto/mysql-connector-java-5.0.8-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Actividad 8 - Proyecto Java/Archivos Necesarios Para el Proyecto/mysql-connector-java-5.0.8-bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
